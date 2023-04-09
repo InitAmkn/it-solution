@@ -33,7 +33,7 @@ void enumerationOfNumbers(int n)
 
 int input()
 {
-    Console.WriteLine("Введите число N:"); //Не допускается ввод других символов кроме цифр
+    Console.Write("Введите число N: "); //Не допускается ввод других символов кроме цифр
     String something = Console.ReadLine();
     int n = 0;
     try
